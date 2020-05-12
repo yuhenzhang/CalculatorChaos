@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator Chaos Game | Yuheng</title>
+        <link rel="stylesheet" href="calculator.css">
+        <script src="calculator.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <div id="menu" class="unhidden">
+                <img id="titlePic0" src="images/coolTitle.gif" alt="animated Calculator Chaos title">
+                <div id ="hilarious"> After eating 500 pounds of hay and turning into a gigantic unicorn, Horsey Horseter wobbled around and stepped on his new calculator. Because there were no buttons left, he bought some broken calculators with just enough buttons for Yuheng to make his Calculator Chaos Game, which only works on Firefox and Google Chrome. Do you want to play? </div>
+                <div id="levelpic"></div>
+                <div id="chooseLevelText">
+                    <p> Choose Level To Begin </p>
+                </div>
+                <div id="hoverOverMe"> Hover over Horsey to see him grow </div>
+                <div id="easy" onclick = "level1()">EASY</div>
+                <div id="medium"  onclick = "level2()">MEDIUM</div>
+                <div id="hard"  onclick = "level3()">HARD</div>
+                <div id="hardplusplus" onclick = "level4()">HARD++</div>
+            </div>
+            <div id="winScreen" class="hidden">
+                <img id="winScreenText" src="images/youwin.png" alt="you win text">
+                <div id="winScreenButton" onclick="backToWinMenu()"> MENU </div>
+            </div>
+            <div id="loseScreen" class="hidden">
+                <img id="loseScreenText" src="images/youlose.png" alt="you lose text">
+                <div id="winScreenButton2" onclick="backToLoseMenu()"> MENU </div>
+            </div>
+            <div id="firstLevel" class="hidden">
+                <div id="miniInstructions" class="unhidden">
+                    <p> Most of the keys are not on the calculator. You have 4 minutes to make the following 8 numbers: </p>
+                </div>
+                <img id="titlePic" src="images/coolTitle.gif" alt="animated Calculator Chaos title">
+                <div id="eightSolutions" class="unhidden">
+                    <ul id = "listItems">
+                        <li id="6">6</li>
+                        <li id="7">7</li>
+                        <li id="8">8</li>
+                        <li id="10">10</li>
+                    </ul>
+                    <ul id = "listItems2">
+                        <li id="12">12</li>
+                        <li id="15">15</li>
+                        <li id="20">20</li>
+                        <li id="50">50</li>
+                    </ul>
+                </div>
+                <div id="instructions" class="hidden">
+                    <div id="instructionsTitle">
+                        <p> INSTRUCTIONS </p>
+                    </div>
+                    <div id="instructionsMiddle">
+                        <p> Numbers and operators can be used in any combination.</p>
+                        <p> Button Explanations: </p>
+                    </div>
+                    <div id="instructionsParagraph">
+                        <p> Equals: Shows the total value after one or more number operations.</p>
+                        <p> AC: Clears the screen but does not erase numbers in memory. </p>
+                        <p> DEL: Deletes the right-most number. </p>
+                    </div>
+                    <img id="x" onclick="closeInstructions()" src="images/x.png" alt="close">
+                </div>
+                <div id="displayLevel1">
+                    EASY
+                </div>
+                <div id="begin" onclick="getTime()" class="unhidden">BEGIN</div>
+                <div id="help" onclick="displayInstructions()" class="unhidden">HELP</div>
+                <div id="reset" onclick="restartLevel()" class="unhidden">RESET</div>
+                <div id="showTime" class="unhidden"> Time Remaining: <span id="time">04:00</span></div>
+                <div id="levelOneSolutions" class="unhidden"></div>
+                <div id="invisibleClickBegin" class="hidden"> Click Begin </div>
+                <div id="calculator1" class="hidden">
+                    <div id="numberTwo" class="hidden" onclick="buttonTwo()"> 2 </div>
+                    <div id="numberThree" class="hidden" onclick="buttonThree()"> 3 </div>
+                    <div id="equals" class="hidden" onclick="buttonEquals()"> = </div>
+                    <div id="clear" class="hidden" onclick="buttonClear()"> AC </div>
+                    <div id="plus" class="hidden" onclick="buttonPlus()"> + </div>
+                    <div id="times" class="hidden" onclick="buttonTimes()"> X </div>
+                    <div id="delete" class="hidden" onclick="buttonDelete(1)"> DEL </div>
+                    <div id="enterStuff" class="hidden"></div>
+                </div>
+            </div>
+            <div id="secondLevel" class="hidden">
+                <div id="miniInstructions2" class="unhidden">
+                    <p> Most of the keys are not on the calculator. You have 3 minutes to make the following 8 numbers: </p>
+                </div>
+                <img id="titlePic2" src="images/coolTitle.gif" alt="animated Calculator Chaos title">
+                <div id="eightSolutions2" class="unhidden">
+                    <ul id = "listItems3">
+                        <li id="-10">-10</li>
+                        <li id="1">1</li>
+                        <li id="3">3</li>
+                        <li id="102">10</li>
+                    </ul>
+                    <ul id = "listItems4">
+                        <li id="24">24</li>
+                        <li id="321">32</li>
+                        <li id="100">100</li>
+                        <li id="625">625</li>
+                    </ul>
+                </div>
+                <div id="instructions2" class="hidden">
+                    <div id="instructionsTitle2">
+                        <p> INSTRUCTIONS </p>
+                    </div>
+                    <div id="instructionsMiddle2">
+                        <p> Numbers and operators can be used in any combination.</p>
+                        <p> Button Explanations: </p>
+                    </div>
+                    <div id="instructionsParagraph2">
+                        <p> Equals: Shows the total value after one or more number operations.</p>
+                        <p> AC: Clears the screen but does not erase numbers in memory. </p>
+                        <p> DEL: Deletes the right-most number. </p>
+                    </div>
+                    <img id="x2" onclick="closeInstructions2()" src="images/x.png" alt="close">
+                </div>
+                <div id="displayLevel2">
+                    MEDIUM
+                </div>
+                <div id="begin2" onclick="getTime2()" class="unhidden">BEGIN</div>
+                <div id="help2" onclick="displayInstructions2()" class="unhidden">HELP</div>
+                <div id="reset2" onclick="restartLevel2()" class="unhidden">RESET</div>
+                <div id="showTime2" class="unhidden"> Time Remaining: <span id="time2">03:00</span></div>
+                <div id="levelTwoSolutions" class="unhidden"></div>
+                <div id="invisibleClickBegin2" class="hidden"> Click Begin </div>
+                <div id="calculator2" class="hidden">
+                    <div id="numberTwo2" class="hidden" onclick="buttonTwo()"> 2 </div>
+                    <div id="numberFive" class="hidden" onclick="buttonFive()"> 5 </div>
+                    <div id="equals2" class="hidden" onclick="buttonEquals2()"> = </div>
+                    <div id="clear2" class="hidden" onclick="buttonClear()"> AC </div>
+                    <div id="minus" class="hidden" onclick="buttonMinus()"> - </div>
+                    <div id="times2" class="hidden" onclick="buttonTimes()"> X </div>
+                    <div id="delete2" class="hidden" onclick="buttonDelete(2)"> DEL </div>
+                    <div id="enterStuff2" class="hidden"></div>
+                </div>
+            </div>
+            <div id="thirdLevel" class="hidden">
+                <div id="miniInstructions3" class="unhidden">
+                    <p> Most of the keys are not on the calculator. You have 5 minutes to make the following 8 numbers: </p>
+                </div>
+                <img id="titlePic3" src="images/coolTitle.gif" alt="animated Calculator Chaos title">
+                <div id="eightSolutions3" class="unhidden">
+                    <ul id = "listItems5">
+                        <li id="-5">-5</li>
+                        <li id="32">3</li>
+                        <li id="5">5</li>
+                        <li id="13">13</li>
+                    </ul>
+                    <ul id = "listItems6">
+                        <li id="202">20</li>
+                        <li id="33">33</li>
+                        <li id="82">82</li>
+                        <li id="1002">100</li>
+                    </ul>
+                </div>
+                <div id="instructions3" class="hidden">
+                    <div id="instructionsTitle3">
+                        <p> INSTRUCTIONS </p>
+                    </div>
+                    <div id="instructionsMiddle3">
+                        <p> Numbers and operators can be used in any combination.</p>
+                        <p> Button Explanations: </p>
+                    </div>
+                    <div id="instructionsParagraph3">
+                        <p> Equals: Shows the total value after one or more number operations.</p>
+                        <p> AC: Clears the screen but does not erase numbers in memory. </p>
+                        <p> DEL: Deletes the right-most number. </p>
+                    </div>
+                    <img id="x3" onclick="closeInstructions3()" src="images/x.png" alt="close">
+                </div>
+                <div id="displayLevel3">
+                    HARD
+                </div>
+                <div id="begin3" onclick="getTime3()" class="unhidden">BEGIN</div>
+                <div id="help3" onclick="displayInstructions3()" class="unhidden">HELP</div>
+                <div id="reset3" onclick="restartLevel3()" class="unhidden">RESET</div>
+                <div id="showTime3" class="unhidden"> Time Remaining: <span id="time3">05:00</span></div>
+                <div id="levelThreeSolutions" class="unhidden"></div>
+                <div id="invisibleClickBegin3" class="hidden"> Click Begin </div>
+                <div id="calculator3" class="hidden">
+                    <div id="numberOne" class="hidden" onclick="buttonOne()"> 1 </div>
+                    <div id="numberEight" class="hidden" onclick="buttonEight()"> 8 </div>
+                    <div id="numberSix" class="hidden" onclick="buttonSix()"> 6 </div>
+                    <div id="equals3" class="hidden" onclick="buttonEquals3()"> = </div>
+                    <div id="clear3" class="hidden" onclick="buttonClear()"> AC </div>
+                    <div id="minus2" class="hidden" onclick="buttonMinus()"> - </div>
+                    <div id="sqrt" class="hidden" onclick="buttonSqrt()"> √ </div>
+                    <div id="delete3" class="hidden" onclick="buttonDelete(3)"> DEL </div>
+                    <div id="enterStuff3" class="hidden"></div>
+                </div>
+            </div>
+            <div id="fourthLevel" class="hidden">
+                <div id="miniInstructions4" class="unhidden">
+                    <p> Most of the keys are not on the calculator. You have 3 minutes to make the following 8 numbers: </p>
+                </div>
+                <img id="titlePic4" src="images/coolTitle.gif" alt="animated Calculator Chaos title">
+                <div id="eightSolutions4" class="unhidden">
+                    <ul id = "listItems7">
+                        <li id="34">3</li>
+                        <li id="4">4</li>
+                        <li id="52">5</li>
+                        <li id="62">6</li>
+                    </ul>
+                    <ul id = "listItems8">
+                        <li id="72">7</li>
+                        <li id="83">8</li>
+                        <li id="9">9</li>
+                        <li id="103">10</li>
+                    </ul>
+                </div>
+                <div id="instructions4" class="hidden">
+                    <div id="instructionsTitle4">
+                        <p> INSTRUCTIONS </p>
+                    </div>
+                    <div id="instructionsMiddle4">
+                        <p> Numbers and operators can be used in any combination.</p>
+                        <p> Button Explanations: </p>
+                    </div>
+                    <div id="instructionsParagraph4">
+                        <p> Equals: Shows the total value after one or more number operations.</p>
+                        <p> AC: Clears the screen but does not erase numbers in memory. </p>
+                        <p> DEL: Deletes the right-most number. </p>
+                    </div>
+                    <img id="x4" onclick="closeInstructions4()" src="images/x.png" alt="close">
+                </div>
+                <div id="displayLevel4">
+                    HARD++
+                </div>
+                <div id="begin4" onclick="getTime4()" class="unhidden">BEGIN</div>
+                <div id="help4" onclick="displayInstructions4()" class="unhidden">HELP</div>
+                <div id="reset4" onclick="restartLevel4()" class="unhidden">RESET</div>
+                <div id="showTime4" class="unhidden"> Time Remaining: <span id="time4">03:00</span></div>
+                <div id="levelFourSolutions" class="unhidden"></div>
+                <div id="invisibleClickBegin4" class="hidden"> Click Begin </div>
+                <div id="calculator4" class="hidden">
+                    <div id="numberOne2" class="hidden" onclick="buttonOne()"> 1 </div>
+                    <div id="numberTwo3" class="hidden" onclick="buttonTwo()"> 2 </div>
+                    <div id="numberZero" class="hidden" onclick="buttonZero()"> 0 </div>
+                    <div id="equals4" class="hidden" onclick="buttonEquals4()"> = </div>
+                    <div id="clear4" class="hidden" onclick="buttonClear()"> AC </div>
+                    <div id="divide" class="hidden" onclick="buttonDivide()"> / </div>
+                    <div id="times3" class="hidden" onclick="buttonTimes()"> X </div>
+                    <div id="delete4" class="hidden" onclick="buttonDelete (4)"> DEL </div>
+                    <div id="enterStuff4" class="hidden"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

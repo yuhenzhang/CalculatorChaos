@@ -1,0 +1,3051 @@
+#main {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     width: 900px;
+     height: 700px;
+     border-width: 5px;
+     border-style: ridge;
+    /* center in page */
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+    /* http://angrytools.com/gradient/ */
+     background: -moz-linear-gradient(270deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(128, 128, 128, 1) 100%);
+    /* ff3.6+ */
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(192, 192, 192, 1)), color-stop(50%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(128, 128, 128, 1)));
+    /* safari4+,chrome */
+     background: -webkit-linear-gradient(270deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(128, 128, 128, 1) 100%);
+    /* safari5.1+,chrome10+ */
+     background: -o-linear-gradient(270deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(128, 128, 128, 1) 100%);
+    /* opera 11.10+ */
+     background: -ms-linear-gradient(270deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(128, 128, 128, 1) 100%);
+    /* ie10+ */
+     background: linear-gradient(180deg, rgba(192, 192, 192, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(128, 128, 128, 1) 100%);
+    /* w3c */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0c0c0', endColorstr='#808080', GradientType=0);
+    /* ie6-9 */
+}
+/* I am allowed to use this image for personal use http://s3.amazonaws.com/bronibooru/bfb70963314a4ef665a11186b893f543.png */
+ #titlePic0 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     margin-left: 38px;
+     margin-top: 25px;
+     height: 80px;
+}
+/* I am allowed to use this image for personal use http://s3.amazonaws.com/bronibooru/bfb70963314a4ef665a11186b893f543.png */
+ #titlePic {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     margin-left: 38px;
+     margin-top: 25px;
+     height: 80px;
+}
+/* I am allowed to use this image for personal use http://s3.amazonaws.com/bronibooru/bfb70963314a4ef665a11186b893f543.png */
+ #titlePic2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     margin-left: 38px;
+     margin-top: 25px;
+     height: 80px;
+}
+/* I am allowed to use this image for personal use http://s3.amazonaws.com/bronibooru/bfb70963314a4ef665a11186b893f543.png */
+ #titlePic3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     margin-left: 38px;
+     margin-top: 25px;
+     height: 80px;
+}
+/* I am allowed to use this image for personal use http://s3.amazonaws.com/bronibooru/bfb70963314a4ef665a11186b893f543.png */
+ #titlePic4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     margin-left: 38px;
+     margin-top: 25px;
+     height: 80px;
+}
+ .hidden {
+     display: none;
+}
+ .unhidden {
+     display: block;
+}
+ #hilarious {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: black;
+     font-size: 21px;
+     position: absolute;
+     margin-left: 21px;
+     margin-top: 135px;
+     padding-right: 50px;
+     padding-left: 35px;
+     z-index: 1;
+}
+/* made animated text from http://textanim.com/ */
+ #levelpic {
+     position: absolute;
+     top: 120px;
+     left: -190px;
+     background-image: url('images/horse.png');
+     width: 800px;
+     height: 800px;
+     transform: scale(0.45, 0.45);
+     background-repeat: no-repeat;
+     transition: width 2s, height 2s, transform 2s;
+     z-index: 2;
+}
+/* made animated text from http://textanim.com/ */
+ #levelpic:hover {
+     position: absolute;
+     top: 120px;
+     left: -190px;
+     background-image: url('images/horse.png');
+     transform: scale(0.8, 0.8);
+     background-repeat: no-repeat;
+     width: 800px;
+     height: 800px;
+     z-index: 2;
+}
+ #hoverOverMe {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     left: 280px;
+     top: 640px;
+     padding: 30px;
+     position: absolute;
+     z-index: 1;
+     font-size: 12px;
+     font-family: OCR A Std, monospace;
+     color: pink;
+}
+ #chooseLevelText {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: black;
+     font-size: 27px;
+     position: absolute;
+     padding-left: 455px;
+     margin-top: 340px;
+     text-decoration: underline;
+}
+ #easy {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     top: 410px;
+     left: 605px;
+     text-decoration: none;
+     color: black;
+     font-family: sans-serif;
+     font-size: 26px;
+     position: relative;
+     padding: 15px;
+}
+ #easy:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     top: 410px;
+     left: 605px;
+     text-decoration: none;
+     color: green;
+     font-family: sans-serif;
+     font-size: 26px;
+     position: relative;
+     padding: 15px;
+}
+ #medium {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     top: 410px;
+     left: 586px;
+     text-decoration: none;
+     color: black;
+     font-family: sans-serif;
+     font-size: 26px;
+     position: relative;
+     padding: 15px;
+}
+ #medium:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     top: 410px;
+     left: 586px;
+     text-decoration: none;
+     color: green;
+     font-family: sans-serif;
+     font-size: 26px;
+     position: relative;
+     padding: 15px;
+}
+ #hard {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     top: 410px;
+     left: 602px;
+     text-decoration: none;
+     color: black;
+     font-family: sans-serif;
+     font-size: 26px;
+     position: relative;
+     padding: 15px;
+}
+ #hard:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     top: 410px;
+     left: 602px;
+     text-decoration: none;
+     color: green;
+     font-family: sans-serif;
+     font-size: 26px;
+     position: relative;
+     padding: 15px;
+}
+ #hardplusplus {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     top: 410px;
+     left: 585px;
+     text-decoration: none;
+     color: black;
+     font-family: sans-serif;
+     font-size: 26px;
+     position: relative;
+     padding: 15px;
+}
+ #hardplusplus:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     top: 410px;
+     left: 585px;
+     text-decoration: none;
+     color: green;
+     font-family: sans-serif;
+     font-size: 26px;
+     position: relative;
+     padding: 15px;
+}
+ #begin {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #begin:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+     cursor: pointer;
+}
+ #begin2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #begin2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #begin3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #begin3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #begin3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #begin4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #begin4:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 585px;
+     margin-left: 500px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #help {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 620px;
+     margin-left: 118px;
+     font-size: 30px;
+     padding-top: 8px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #help:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 620px;
+     margin-left: 118px;
+     font-size: 30px;
+     padding-top: 8px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #help2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 620px;
+     margin-left: 118px;
+     font-size: 30px;
+     padding-top: 8px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #help2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 620px;
+     margin-left: 118px;
+     font-size: 30px;
+     padding-top: 8px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #help3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 620px;
+     margin-left: 118px;
+     font-size: 30px;
+     padding-top: 8px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #help3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 620px;
+     margin-left: 118px;
+     font-size: 30px;
+     padding-top: 8px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #help4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 620px;
+     margin-left: 118px;
+     font-size: 30px;
+     padding-top: 8px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #help4:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 620px;
+     margin-left: 118px;
+     font-size: 30px;
+     padding-top: 8px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #reset {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 650px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #reset:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 585px;
+     margin-left: 650px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #reset2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 650px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #reset2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 585px;
+     margin-left: 650px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #reset3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 650px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #reset3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 585px;
+     margin-left: 650px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #reset4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 585px;
+     margin-left: 650px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #reset4:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 585px;
+     margin-left: 650px;
+     font-size: 30px;
+     padding-top: 9px;
+     padding-bottom: 2px;
+     padding-right: 12px;
+     padding-left: 12px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #showTime {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: wait;
+     margin-top: 650px;
+     margin-left: 410px;
+     font-size: 30px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     position: absolute;
+}
+ #showTime2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: wait;
+     margin-top: 650px;
+     margin-left: 410px;
+     font-size: 30px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     position: absolute;
+}
+ #showTime3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: wait;
+     margin-top: 650px;
+     margin-left: 410px;
+     font-size: 30px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     position: absolute;
+}
+ #showTime4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: wait;
+     margin-top: 650px;
+     margin-left: 410px;
+     font-size: 30px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     position: absolute;
+}
+ #miniInstructions {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: black;
+     font-size: 22px;
+     position: absolute;
+     margin-left: 23px;
+     margin-top: 150px;
+     padding-right: 600px;
+     padding-left: 35px;
+}
+ #miniInstructions2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: black;
+     font-size: 22px;
+     position: absolute;
+     margin-left: 23px;
+     margin-top: 150px;
+     padding-right: 600px;
+     padding-left: 35px;
+}
+ #miniInstructions3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: black;
+     font-size: 22px;
+     position: absolute;
+     margin-left: 23px;
+     margin-top: 150px;
+     padding-right: 600px;
+     padding-left: 35px;
+}
+ #miniInstructions4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: black;
+     font-size: 22px;
+     position: absolute;
+     margin-left: 23px;
+     margin-top: 150px;
+     padding-right: 600px;
+     padding-left: 35px;
+}
+ #eightSolutions {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     top: 370px;
+     left: 75px;
+}
+ #eightSolutions2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     top: 370px;
+     left: 75px;
+}
+ #eightSolutions3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     top: 370px;
+     left: 75px;
+}
+ #eightSolutions4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: absolute;
+     top: 370px;
+     left: 75px;
+}
+ #listItems {
+     border: 4px solid green;
+     border-right: 0px;
+     font-family: OCR A Std, monospace;
+     font-size: 28px;
+     text-decoration: none;
+     list-style-type: none;
+     position: absolute;
+     padding: 30px;
+}
+ #listItems2 {
+     border: 4px solid green;
+     border-left: 0px;
+     font-family: OCR A Std, monospace;
+     font-size: 28px;
+     text-decoration: none;
+     list-style-type: none;
+     position: absolute;
+     left: 102px;
+     padding: 30px;
+}
+ #listItems3 {
+     border: 4px solid green;
+     border-right: 0px;
+     font-family: OCR A Std, monospace;
+     font-size: 28px;
+     text-decoration: none;
+     list-style-type: none;
+     position: absolute;
+     padding: 30px;
+}
+ #listItems4 {
+     border: 4px solid green;
+     border-left: 0px;
+     font-family: OCR A Std, monospace;
+     font-size: 28px;
+     text-decoration: none;
+     list-style-type: none;
+     position: absolute;
+     left: 102px;
+     padding: 30px;
+}
+ #listItems5 {
+     border: 4px solid green;
+     border-right: 0px;
+     font-family: OCR A Std, monospace;
+     font-size: 28px;
+     text-decoration: none;
+     list-style-type: none;
+     position: absolute;
+     padding: 30px;
+}
+ #listItems6 {
+     border: 4px solid green;
+     border-left: 0px;
+     font-family: OCR A Std, monospace;
+     font-size: 28px;
+     text-decoration: none;
+     list-style-type: none;
+     position: absolute;
+     left: 102px;
+     padding: 30px;
+}
+ #listItems7 {
+     border: 4px solid green;
+     border-right: 0px;
+     font-family: OCR A Std, monospace;
+     font-size: 28px;
+     text-decoration: none;
+     list-style-type: none;
+     position: absolute;
+     padding: 30px;
+     padding-left: 50px;
+}
+ #listItems8 {
+     border: 4px solid green;
+     border-left: 0px;
+     font-family: OCR A Std, monospace;
+     font-size: 28px;
+     text-decoration: none;
+     list-style-type: none;
+     position: absolute;
+     left: 102px;
+     padding: 30px;
+}
+ #displayLevel1 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     letter-spacing: 4px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-size: 34px;
+     left: 590px;
+     top: 115px;
+     position: absolute;
+}
+ #displayLevel2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     letter-spacing: 4px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-size: 34px;
+     left: 560px;
+     top: 115px;
+     position: absolute;
+}
+ #displayLevel3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     letter-spacing: 4px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-size: 34px;
+     left: 590px;
+     top: 115px;
+     position: absolute;
+}
+ #displayLevel4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     letter-spacing: 4px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-size: 34px;
+     left: 560px;
+     top: 115px;
+     position: absolute;
+}
+ #instructions {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     border: 1px solid white;
+     background-color: rgba(255, 0, 0, 0.4);
+     position: absolute;
+     left: 15px;
+     top: 170px;
+     bottom: 100px;
+     right: 530px;
+}
+ #instructions2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     border: 1px solid white;
+     background-color: rgba(255, 0, 0, 0.4);
+     position: absolute;
+     left: 15px;
+     top: 170px;
+     bottom: 100px;
+     right: 530px;
+}
+ #instructions3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     border: 1px solid white;
+     background-color: rgba(255, 0, 0, 0.4);
+     position: absolute;
+     left: 15px;
+     top: 170px;
+     bottom: 100px;
+     right: 530px;
+}
+ #instructions4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     border: 1px solid white;
+     background-color: rgba(255, 0, 0, 0.4);
+     position: absolute;
+     left: 15px;
+     top: 170px;
+     bottom: 100px;
+     right: 530px;
+}
+ #instructionsTitle {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     text-align: center;
+     font-size: 42px;
+     top: -30px;
+     font-family: Tahoma, Geneva, sans-serif;
+     text-decoration: underline;
+}
+ #instructionsTitle2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     text-align: center;
+     font-size: 42px;
+     top: -30px;
+     font-family: Tahoma, Geneva, sans-serif;
+     text-decoration: underline;
+}
+ #instructionsTitle3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     text-align: center;
+     font-size: 42px;
+     top: -30px;
+     font-family: Tahoma, Geneva, sans-serif;
+     text-decoration: underline;
+}
+ #instructionsTitle4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     text-align: center;
+     font-size: 42px;
+     top: -30px;
+     font-family: Tahoma, Geneva, sans-serif;
+     text-decoration: underline;
+}
+ #instructionsMiddle {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     padding-top: 5px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-weight: bolder;
+     text-align: center;
+     top: -68px;
+     font-size: 16px;
+     padding-left: 12px;
+     padding-right: 12px;
+}
+ #instructionsMiddle2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     padding-top: 5px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-weight: bolder;
+     text-align: center;
+     top: -68px;
+     font-size: 16px;
+     padding-left: 12px;
+     padding-right: 12px;
+}
+ #instructionsMiddle3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     padding-top: 5px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-weight: bolder;
+     text-align: center;
+     top: -68px;
+     font-size: 16px;
+     padding-left: 12px;
+     padding-right: 12px;
+}
+ #instructionsMiddle4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     padding-top: 5px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-weight: bolder;
+     text-align: center;
+     top: -68px;
+     font-size: 16px;
+     padding-left: 12px;
+     padding-right: 12px;
+}
+ #instructionsParagraph {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     padding-left: 15px;
+     padding-right: 15px;
+     top: -65px;
+     font-family: Tahoma, Geneva, sans-serif;
+}
+ #instructionsParagraph2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     padding-left: 15px;
+     padding-right: 15px;
+     top: -65px;
+     font-family: Tahoma, Geneva, sans-serif;
+}
+ #instructionsParagraph3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     padding-left: 15px;
+     padding-right: 15px;
+     top: -65px;
+     font-family: Tahoma, Geneva, sans-serif;
+}
+ #instructionsParagraph4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     position: relative;
+     padding-left: 15px;
+     padding-right: 15px;
+     top: -65px;
+     font-family: Tahoma, Geneva, sans-serif;
+}
+ #x {
+     bottom: 12px;
+     right: 33px;
+     position: absolute;
+}
+ #x:hover {
+     cursor: pointer;
+}
+ #x2 {
+     bottom: 12px;
+     right: 33px;
+     position: absolute;
+}
+ #x2:hover {
+     cursor: pointer;
+}
+ #x3 {
+     bottom: 12px;
+     right: 33px;
+     position: absolute;
+}
+ #x3:hover {
+     cursor: pointer;
+}
+ #x4 {
+     bottom: 12px;
+     right: 33px;
+     position: absolute;
+}
+ #x4:hover {
+     cursor: pointer;
+}
+ #calculator1 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 160px;
+     margin-left: 425px;
+     padding-top: 220px;
+     padding-bottom: 180px;
+     padding-right: 20px;
+     padding-left: 200px;
+     border: 5px solid black;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+     z-index: 1;
+}
+ #invisibleClickBegin {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 185px;
+     margin-left: 400px;
+     padding-top: 30px;
+     padding-bottom: 320px;
+     padding-right: 200px;
+     padding-left: 200px;
+     position: absolute;
+     z-index: 2;
+}
+ #invisibleClickBegin2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 185px;
+     margin-left: 400px;
+     padding-top: 30px;
+     padding-bottom: 320px;
+     padding-right: 200px;
+     padding-left: 200px;
+     position: absolute;
+     z-index: 2;
+}
+ #invisibleClickBegin3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 185px;
+     margin-left: 400px;
+     padding-top: 30px;
+     padding-bottom: 320px;
+     padding-right: 200px;
+     padding-left: 200px;
+     position: absolute;
+     z-index: 2;
+}
+ #invisibleClickBegin4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 185px;
+     margin-left: 400px;
+     padding-top: 30px;
+     padding-bottom: 320px;
+     padding-right: 200px;
+     padding-left: 200px;
+     position: absolute;
+     z-index: 2;
+}
+ #calculator2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 160px;
+     margin-left: 425px;
+     padding-top: 220px;
+     padding-bottom: 180px;
+     padding-right: 20px;
+     padding-left: 200px;
+     border: 5px solid black;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #calculator3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 160px;
+     margin-left: 425px;
+     padding-top: 220px;
+     padding-bottom: 180px;
+     padding-right: 20px;
+     padding-left: 200px;
+     border: 5px solid black;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #calculator4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 160px;
+     margin-left: 425px;
+     padding-top: 220px;
+     padding-bottom: 180px;
+     padding-right: 20px;
+     padding-left: 200px;
+     border: 5px solid black;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #delete {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: 103px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 7px;
+     padding-left: 7px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #delete:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: 103px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 7px;
+     padding-left: 7px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #delete2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: 103px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 7px;
+     padding-left: 7px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #delete2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: 103px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 7px;
+     padding-left: 7px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #delete3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: 103px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 7px;
+     padding-left: 7px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #delete3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: 103px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 7px;
+     padding-left: 7px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #delete4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: 103px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 7px;
+     padding-left: 7px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #delete4:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: 103px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 7px;
+     padding-left: 7px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberOne {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: -190px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberOne:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: -190px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberOne2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: -190px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberOne2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: -190px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberTwo {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberTwo:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberTwo2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberTwo2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberTwo3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberTwo3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberThree {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: -50px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberThree:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: -50px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberFive {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberFive:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberSix {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: -50px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberSix:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: -50px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberEight {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -90px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberEight:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -90px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #numberZero {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 115px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #numberZero:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 115px;
+     margin-left: -120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #equals {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 115px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #equals:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 115px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #clear {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -90px;
+     margin-left: 105px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #clear:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -90px;
+     margin-left: 105px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #equals2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 115px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #equals2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 115px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #clear2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -90px;
+     margin-left: 105px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #clear2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -90px;
+     margin-left: 105px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #equals3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 115px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #equals3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 115px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #clear3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -90px;
+     margin-left: 105px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #clear3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -90px;
+     margin-left: 105px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #equals4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 115px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #equals4:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 115px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #clear4 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -90px;
+     margin-left: 105px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #clear4:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -90px;
+     margin-left: 105px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #plus {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 115px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #plus:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 115px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #minus {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #minus:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #minus2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #minus2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #times {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #times:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #times2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #times2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #times3 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -20px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #times3:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -20px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #divide {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: -90px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #divide:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: -90px;
+     margin-left: 30px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #sqrt {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 50px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 0, 0);
+}
+ #sqrt:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 50px;
+     margin-left: 120px;
+     font-size: 30px;
+     padding-top: 12px;
+     padding-bottom: 3px;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid white;
+     border-radius: 10px;
+     position: absolute;
+     background-color: rgb(255, 135, 135);
+}
+ #enterStuff {
+     background-color: white;
+     border: 1px solid black;
+     padding-top: 30px;
+     margin-left: -180px;
+     margin-top: -195px;
+     width: 360px;
+     height: 40px;
+     text-align: center;
+}
+ #enterStuff2 {
+     background-color: white;
+     border: 1px solid black;
+     padding-top: 30px;
+     margin-left: -180px;
+     margin-top: -195px;
+     width: 360px;
+     height: 40px;
+     text-align: center;
+}
+ #enterStuff3 {
+     background-color: white;
+     border: 1px solid black;
+     padding-top: 30px;
+     margin-left: -180px;
+     margin-top: -195px;
+     width: 360px;
+     height: 40px;
+     text-align: center;
+}
+ #enterStuff4 {
+     background-color: white;
+     border: 1px solid black;
+     padding-top: 30px;
+     margin-left: -180px;
+     margin-top: -195px;
+     width: 360px;
+     height: 40px;
+     text-align: center;
+}
+ #winScreenButton {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 30px;
+     margin-left: 375px;
+     font-size: 40px;
+     padding-top: 10px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #winScreenButton:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 30px;
+     margin-left: 375px;
+     font-size: 40px;
+     padding-top: 10px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+ #winScreenButton2 {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     margin-top: 30px;
+     margin-left: 375px;
+     font-size: 40px;
+     padding-top: 10px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(0, 170, 19, 0.4);
+}
+ #winScreenButton2:hover {
+    /* to disable text select highlighing */
+    /* https://www.w3schools.com/cssref/css3_pr_user-select.asp */
+     -webkit-user-select: none;
+    /* Safari 3.1+ */
+     -moz-user-select: none;
+    /* Firefox 2+ */
+     cursor: pointer;
+     margin-top: 30px;
+     margin-left: 375px;
+     font-size: 40px;
+     padding-top: 10px;
+     padding-bottom: 1px;
+     padding-right: 12px;
+     padding-left: 15px;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     color: white;
+     border: 2px solid black;
+     position: absolute;
+     background-color: rgba(39, 229, 60, 0.4);
+}
+/* not copyrighted and able to use from  https://pngimage.net/you-win-png/ */
+ #winScreenText {
+     margin-left: 60px;
+     margin-top: 50px;
+}
+/* not copyrighted and able to use from https://pngimage.net/you-lose-png-1/ */
+ #loseScreenText {
+     margin-left: 197px;
+     margin-top: 130px;
+}
